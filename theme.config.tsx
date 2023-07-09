@@ -16,6 +16,9 @@ const config: DocsThemeConfig = {
   feedback: {
     content: null,
   },
+  useNextSeoProps() {
+    titleTemplate: "%s - Docker Berry Docs";
+  },
 }
 
 export default config
