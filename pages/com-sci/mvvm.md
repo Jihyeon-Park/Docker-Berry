@@ -20,3 +20,5 @@ ViewModel은 View와 1:N 관계를 갖습니다. View는 ViewModel의 상태가 
 MVVM 패턴에서 Model은 조금 특이한 위치에 놓여있습니다. ViewModel이 Model을 소유하고 갱신시키기 때문입니다. Model은 애플리케이션의 비즈니스 로직과 데이터를 그저 알고 있으면 되고, ViewModel이 이를 갱신하면 Model은 ViewModel에게 "갱신되었다"고 알려주면 됩니다.
 
 MVVM 패턴은 MVC나 MVP에 비해 많은 부분에서 성능 효율적이고 의존성 문제도 해결되었지만, 구현의 복잡함과 애플리케이션 규모 확장에 따른 ViewModel의 범용성 한계 때문에 단점도 존재합니다. [링크](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8D%B8-%EB%B7%B0-%EB%B7%B0%EB%AA%A8%EB%8D%B8#%EB%B9%84%ED%8C%90) 
+
+\# Design Pattern \# 디자인 패턴

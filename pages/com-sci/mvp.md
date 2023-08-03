@@ -15,3 +15,7 @@ Presenter는 View와 Model에 사이에서 View가 필요로 하는 가공된 Mo
 즉 Presenter와 View는 1:1 관계이며, 다시 말하면 View에 따른 Presenter가 항상 존재하는 것입니다.
 
 Presenter는 View의 Model에 대한 의존성을 해결했지만, View의 Presenter에 대한 의존성을 만들어냈고, 애플리케이션의 규모가 커지면 그만큼 구현해야 할 View가 많아지므로, 더불어 Presenter의 규모도 커진다는 단점이 있습니다.
+
+
+
+\# Design Pattern \# 디자인 패턴
